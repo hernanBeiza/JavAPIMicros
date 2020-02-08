@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  cl.hiperactivo.javapi.unificado.starter.configurators.SwaggerConfigurator,\
+  cl.hiperactivo.javapi.unificado.starter.configurators.FeignConfigurator
