@@ -1,2 +1,2 @@
 # JavAPIMicros
- Implementación de una arquitectura simple de microservicios en Java y Spring
+ Implementación de arquitectura de microservicios simple en Java y Spring
