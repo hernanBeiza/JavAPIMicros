@@ -64,7 +64,6 @@ public class UsuarioController implements UsuarioAPI {
         return this.usuarioService.editar(usuarioVO);
     }
 
-
     @Override
     public ResponseEntity<Map<String, Object>> eliminar(@PathVariable(value = "idUsuario") Long idUsuario) {
         Map <String, Object> result = new HashMap<>();

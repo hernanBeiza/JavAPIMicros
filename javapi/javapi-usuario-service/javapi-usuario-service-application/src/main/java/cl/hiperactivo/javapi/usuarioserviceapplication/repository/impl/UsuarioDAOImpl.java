@@ -15,7 +15,6 @@ import java.util.Optional;
 @Repository
 public class UsuarioDAOImpl implements UsuarioDAO {
 
-
     private final EntityManager entityManager;
 
     @Autowired
@@ -76,10 +75,10 @@ public class UsuarioDAOImpl implements UsuarioDAO {
     @Override
     @Transactional
     public boolean eliminar(Long idUsuario){
-        Optional<Usuario> usuarioExiste = this.obtenerConIdUsuario(idUsuario);
-        if(usuarioExiste.isPresent()){
+        Optional<Usuario> usuario = this.obtenerConIdUsuario(idUsuario);
+        if(usuario.isPresent()){
             try {
-                this.entityManager.remove(usuarioExiste.get());
+                this.entityManager.remove(usuario.get());
                 return true;
             } catch(Exception e){
                 System.out.println(e.getLocalizedMessage());

@@ -1,16 +1,29 @@
-package cl.hiperactivo.javapi.nota.api.VO;
+package cl.hiperactivo.javapi.notaserviceapplication.repository.model;
 
-import java.io.Serializable;
+import javax.persistence.*;
 import java.util.Date;
 
-public class NotaVO implements Serializable {
+@Entity
+@Table(name = "nota")
+public class Nota {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "idnota")
     private Long idNota;
+    @Column(name = "idusuario")
     private Long idUsuario;
+    @Column(name = "titulo")
     private String titulo;
+    @Column(name = "cuerpo")
     private String cuerpo;
+    @Column(name = "timestamp")
     private Date timestamp;
+    @Column(name = "valid")
     private Long valid;
+
+    public Nota() {
+    }
 
     public Long getIdNota() {
         return idNota;
