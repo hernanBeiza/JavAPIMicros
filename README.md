@@ -7,7 +7,7 @@
 - UsuarioService: Puerto 8002
 - NotaService: Puerto 8003
 
-![](docs\JavAPIMicros.png)
+![](docs/JavAPIMicros.png)
 
 ## Endpoints
 
