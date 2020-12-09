@@ -101,12 +101,12 @@
       <dependency>
         <groupId>cl.hiperactivo.javapi</groupId>
         <artifactId>javapi-commons-starter</artifactId>
-        <version>${unificado-commons.version}</version>
+        <version>${javapi-commons.version}</version>
       </dependency>
       <dependency>
         <groupId>cl.hiperactivo.javapi</groupId>
         <artifactId>javapi-commons-utils</artifactId>
-        <version>${unificado-commons.version}</version>
+        <version>${javapi-commons.version}</version>
       </dependency>
       <dependency>
         <groupId>com.oracle.ojdbc</groupId>
@@ -132,7 +132,7 @@
       <dependency>
         <groupId>cl.hiperactivo.javapi</groupId>
         <artifactId>javapi-commons-test</artifactId>
-        <version>${unificado-commons.version}</version>
+        <version>${javapi-commons.version}</version>
         <scope>test</scope>
       </dependency>
     </dependencies>

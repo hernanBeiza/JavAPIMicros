@@ -1,6 +1,5 @@
 package cl.hiperactivo.javapi.unificado.test.security;
 
-
 import cl.hiperactivo.javapi.unificado.utils.security.UnificadoPrincipal;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;

@@ -15,7 +15,7 @@
       <dependency>
         <groupId>cl.hiperactivo.javapi</groupId>
         <artifactId>javapi-commons-dependencies</artifactId>
-        <version>${unificado-commons.version}</version>
+        <version>${javapi-commons.version}</version>
         <scope>import</scope>
         <type>pom</type>
       </dependency>
